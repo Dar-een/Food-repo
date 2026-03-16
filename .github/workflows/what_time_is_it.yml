@@ -1,11 +1,12 @@
 on:
     push:
       branches: [main]
+
 jobs:
   build:
     runs-on: ubutun-24.04
+
     steps:
       - run : date
       - name: Checkout
         uses: actions/checkout@4
-    
