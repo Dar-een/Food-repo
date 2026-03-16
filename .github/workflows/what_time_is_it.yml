@@ -9,4 +9,4 @@ jobs:
     steps:
       - run : date
       - name: Checkout
-        uses: actions/checkout@4
+        uses: actions/checkout@v4
